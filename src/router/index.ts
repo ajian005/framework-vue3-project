@@ -77,6 +77,12 @@ const router = createRouter({
       name: "EventListener",
       component: () => import("../views/studys/EventListener.vue"),
     },
+    {
+      path: "/FormBiding",
+      name: "FormBiding",
+      component: () => import("../views/studys/FormBiding.vue"),
+    },
+    
   ]
 })
 

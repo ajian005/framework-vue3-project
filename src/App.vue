@@ -17,8 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/StdudyRefAndReactor">StdudyRefAndReactor</RouterLink>
         <RouterLink to="/AttributeBinding">AttributeBinding</RouterLink>
         <RouterLink to="/EventListener">EventListener</RouterLink>
-
-        
+        <RouterLink to="/FormBiding">EventListener</RouterLink>
       </nav>
     </div>
   </header>
