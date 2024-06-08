@@ -2,6 +2,8 @@
 import { ref } from 'vue'
 
 const text = ref('')
+const text2 = ref('')
+
 
 function onInput(e) {
   text.value = e.target.value
@@ -19,10 +21,10 @@ function onInput(e) {
     </tr>
    <tr>v-model模式</tr>
     <tr>
-        <input v-model="text"  placeholder="Type here2">
+        <input v-model="text2"  placeholder="Type here2">
     </tr>
     <tr>
-        <p>{{ text }}</p>
+        <p>{{ text2 }}</p>
     </tr>
 </table>
 </template>
