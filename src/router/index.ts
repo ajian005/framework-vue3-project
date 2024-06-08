@@ -16,7 +16,67 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
-    }
+    },
+    {
+      path: '/test',
+      name: 'test',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/Test.vue')
+    },
+    {
+      path: '/test1',
+      name: 'test1',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/studys/Test1.vue')
+    },
+    {
+      path: '/StudyIndex',
+      name: 'StudyIndex',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/StudyIndex.vue'),
+      children: [
+        {
+          path: "/StudyIndex/StdudyRefAndReactor",
+          name: "StdudyRefAndReactor",
+          component: () => import("../views/studys/StdudyRefAndReactor.vue"),
+        },
+        {
+          path: "/StudyIndex/StdudyRefAndReactor",
+          name: "StdudyRefAndReactor",
+          component: () => import("../views/studys/StdudyRefAndReactor.vue"),
+        },
+        
+        {
+          path: "/StudyIndex/AttributeBinding",
+          name: "AttributeBinding",
+          component: () => import("../views/studys/AttributeBinding.vue"),
+        },
+      ]
+    },
+    {
+      path: '/StdudyRefAndReactor',
+      name: 'StdudyRefAndReactor',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/studys/StdudyRefAndReactor.vue')
+    },
+    {
+      path: "/AttributeBinding",
+      name: "AttributeBinding",
+      component: () => import("../views/studys/AttributeBinding.vue"),
+    },
+    {
+      path: "/EventListener",
+      name: "EventListener",
+      component: () => import("../views/studys/EventListener.vue"),
+    },
   ]
 })
 

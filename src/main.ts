@@ -10,5 +10,19 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-
 app.mount('#app')
+
+
+// 第二个Demo实例
+/*
+const app2 = createApp(
+    data() {
+        return {
+            count:0
+        }
+    }
+)
+app2.mount('#app2')
+*/
+
+
