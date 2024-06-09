@@ -87,6 +87,12 @@ const router = createRouter({
       name: "ConditionalRendering",
       component: () => import("../views/studys/ConditionalRendering.vue"),
     },
+    {
+      path: "/ListRendering",
+      name: "ListRendering",
+      component: () => import("../views/studys/ListRendering.vue"),
+    },
+    
     
     
   ]

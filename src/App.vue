@@ -19,6 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/EventListener">EventListener</RouterLink>
         <RouterLink to="/FormBiding">EventListener</RouterLink>
         <RouterLink to="/ConditionalRendering">ConditionalRendering</RouterLink>
+        <RouterLink to="/ListRendering">ListRendering</RouterLink>
 
       </nav>
     </div>
