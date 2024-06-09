@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { watch } from 'vue'
 
 const todoId = ref(1)
 const todoData = ref(null)
@@ -13,6 +14,8 @@ async function fetchData() {
 }
 
 fetchData()
+
+watch(todoId, fetchData)
 </script>
 
 <template>
