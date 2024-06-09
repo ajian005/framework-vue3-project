@@ -119,6 +119,11 @@ const router = createRouter({
       component: () => import("../views/studys/Props.vue"),
     },
     
+    {
+      path: "/EmitsParent",
+      name: "EmitsParent",
+      component: () => import("../views/studys/EmitsParent.vue"),
+    },
     
   ]
 })
