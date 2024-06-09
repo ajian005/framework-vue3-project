@@ -24,6 +24,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/LifeCicle">LifeCicle</RouterLink>
         <RouterLink to="/Watchers">Watchers</RouterLink>
         <RouterLink to="/ComponentCreat">ComponentCreat</RouterLink>
+        <RouterLink to="/Props">Props</RouterLink>
 
         
         

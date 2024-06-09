@@ -112,7 +112,12 @@ const router = createRouter({
       name: "ComponentCreat",
       component: () => import("../views/studys/ComponentCreat.vue"),
     },
-
+    
+    {
+      path: "/Props",
+      name: "Props",
+      component: () => import("../views/studys/Props.vue"),
+    },
     
     
   ]
