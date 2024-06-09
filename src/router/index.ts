@@ -102,12 +102,18 @@ const router = createRouter({
       name: "LifeCicle",
       component: () => import("../views/studys/LifeCicle.vue"),
     },
-    
     {
       path: "/Watchers",
       name: "Watchers",
       component: () => import("../views/studys/Watchers.vue"),
     },
+    {
+      path: "/ComponentCreat",
+      name: "ComponentCreat",
+      component: () => import("../views/studys/ComponentCreat.vue"),
+    },
+
+    
     
   ]
 })
