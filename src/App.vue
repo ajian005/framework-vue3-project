@@ -18,6 +18,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/AttributeBinding">AttributeBinding</RouterLink>
         <RouterLink to="/EventListener">EventListener</RouterLink>
         <RouterLink to="/FormBiding">EventListener</RouterLink>
+        <RouterLink to="/ConditionalRendering">ConditionalRendering</RouterLink>
+
       </nav>
     </div>
   </header>

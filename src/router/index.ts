@@ -82,6 +82,12 @@ const router = createRouter({
       name: "FormBiding",
       component: () => import("../views/studys/FormBiding.vue"),
     },
+    {
+      path: "/ConditionalRendering",
+      name: "ConditionalRendering",
+      component: () => import("../views/studys/ConditionalRendering.vue"),
+    },
+    
     
   ]
 })
