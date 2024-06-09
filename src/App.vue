@@ -21,6 +21,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/ConditionalRendering">ConditionalRendering</RouterLink>
         <RouterLink to="/ListRendering">ListRendering</RouterLink>
         <RouterLink to="/ComputedProperty">ComputedProperty</RouterLink>
+        <RouterLink to="/LifeCicle">LifeCicle</RouterLink>
+        <RouterLink to="/Watchers">Watchers</RouterLink>
 
         
       </nav>

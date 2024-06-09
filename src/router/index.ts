@@ -97,9 +97,17 @@ const router = createRouter({
       name: "ComputedProperty",
       component: () => import("../views/studys/ComputedProperty.vue"),
     },
+    {
+      path: "/LifeCicle",
+      name: "LifeCicle",
+      component: () => import("../views/studys/LifeCicle.vue"),
+    },
     
-    
-    
+    {
+      path: "/Watchers",
+      name: "Watchers",
+      component: () => import("../views/studys/Watchers.vue"),
+    },
     
   ]
 })
