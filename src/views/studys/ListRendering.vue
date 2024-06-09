@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 // give each todo a unique id
 let id = 0
@@ -21,6 +21,14 @@ function addTodo() {
 function removeTodo(todo) {
   todos.value = todos.value.filter((t) => t !== todo)
 }
+
+const hideCompleted = ref(false)
+const filteredTodos = computed(
+  () => hideCompleted.value ?
+    todos.value.filter(t => !t.completed) :
+    todos.value
+)
+
 </script>
 
 <template>

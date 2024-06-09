@@ -92,6 +92,12 @@ const router = createRouter({
       name: "ListRendering",
       component: () => import("../views/studys/ListRendering.vue"),
     },
+    {
+      path: "/ComputedProperty",
+      name: "ComputedProperty",
+      component: () => import("../views/studys/ComputedProperty.vue"),
+    },
+    
     
     
     

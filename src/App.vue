@@ -20,7 +20,9 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/FormBiding">EventListener</RouterLink>
         <RouterLink to="/ConditionalRendering">ConditionalRendering</RouterLink>
         <RouterLink to="/ListRendering">ListRendering</RouterLink>
+        <RouterLink to="/ComputedProperty">ComputedProperty</RouterLink>
 
+        
       </nav>
     </div>
   </header>
