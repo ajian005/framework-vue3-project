@@ -28,6 +28,7 @@ function removeTodo(todo) {
 </script>
 
 <template>
+  <table>
   <form @submit.prevent="addTodo">
     <input v-model="newTodo" required placeholder="new todo">
     <button>Add Todo</button>
@@ -42,6 +43,7 @@ function removeTodo(todo) {
   <button @click="hideCompleted = !hideCompleted">
     {{ hideCompleted ? 'Show all' : 'Hide completed' }}
   </button>
+</table>
 </template>
 
 <style>

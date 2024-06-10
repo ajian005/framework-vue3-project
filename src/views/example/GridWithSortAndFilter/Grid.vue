@@ -102,7 +102,7 @@ th.active .arrow {
 
 .arrow {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
   width: 0;
   height: 0;
   margin-left: 5px;

@@ -132,12 +132,12 @@ const router = createRouter({
     {
       path: "/markdownEditor",
       name: "markdownEditor",
-      component: () => import("../views/example/markdownEditor.vue"),
+      component: () => import("../views/example/markDown/markdownEditor.vue"),
     },
     {
       path: "/GridWithSortAndFilter",
       name: "GridWithSortAndFilter",
-      component: () => import("../views/example/GridWithSortAndFilter.vue"),
+      component: () => import("../views/example/GridWithSortAndFilter/GridWithSortAndFilter.vue"),
     },
     {
       path: "/TreeViewApp",
@@ -159,6 +159,12 @@ const router = createRouter({
       name: "ListWithTransitionsApp",
       component: () => import("../views/example/ListWithTransitions/ListWithTransitionsApp.vue"),
     },
+    {
+      path: "/TodoMVCApp",
+      name: "TodoMVCApp",
+      component: () => import("../views/example/TodoMVC/TodoMVCApp.vue"),
+    },
+    
     
     
     

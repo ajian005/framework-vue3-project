@@ -16,13 +16,19 @@ const gridData = [
 ]
 </script>
 
-<template>
-  <form id="search">
+<template >
+  <form id="search"  class="right-element">
     Search <input name="query" v-model="searchQuery">
   </form>
-  <DemoGrid
+  <DemoGrid  class="right-element"
     :data="gridData"
     :columns="gridColumns"
     :filter-key="searchQuery">
   </DemoGrid>
 </template>
+
+<style>
+.right-element {
+  float: right;
+}
+</style>

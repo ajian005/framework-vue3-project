@@ -34,6 +34,7 @@ function remove(item) {
 </script>
 
 <template>
+  <table>
   <button @click="insert">Insert at random index</button>
   <button @click="reset">Reset</button>
   <button @click="shuffle">Shuffle</button>
@@ -44,6 +45,7 @@ function remove(item) {
       <button @click="remove(item)">x</button>
     </li>
   </TransitionGroup>
+</table>
 </template>
 
 <style>
@@ -54,7 +56,7 @@ function remove(item) {
 }
 
 .item {
-  width: 100%;
+  width: 50%;
   height: 30px;
   background-color: #f3f3f3;
   border: 1px solid #666;

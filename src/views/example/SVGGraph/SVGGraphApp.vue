@@ -36,6 +36,7 @@ function remove(stat) {
 </script>
 
 <template>
+  <table>
   <svg width="200" height="200">
     <PolyGraph :stats="stats"></PolyGraph>
   </svg>
@@ -53,7 +54,10 @@ function remove(stat) {
     <button @click="add">Add a Stat</button>
   </form>
 
-  <pre id="raw">{{ stats }}</pre>
+  <tr>
+  <pre id="raw">sss:{{ stats }}</pre>
+</tr>
+</table>
 </template>
 
 <style>
@@ -81,6 +85,6 @@ label {
 #raw {
   position: absolute;
   top: 0;
-  left: 300px;
+  right: 200px;
 }
 </style>

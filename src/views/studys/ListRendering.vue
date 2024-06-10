@@ -32,6 +32,7 @@ const filteredTodos = computed(
 </script>
 
 <template>
+  <table>
   <form @submit.prevent="addTodo">
     <input v-model="newTodo" required placeholder="new todo">
     <button>Add Todo</button>
@@ -42,4 +43,5 @@ const filteredTodos = computed(
       <button @click="removeTodo(todo)">X</button>
     </li>
   </ul>
+</table>
 </template>
