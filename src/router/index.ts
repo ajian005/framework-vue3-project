@@ -139,6 +139,17 @@ const router = createRouter({
       name: "GridWithSortAndFilter",
       component: () => import("../views/example/GridWithSortAndFilter.vue"),
     },
+    {
+      path: "/TreeViewApp",
+      name: "TreeViewApp",
+      component: () => import("../views/example/TreeView/TreeViewApp.vue"),
+    },
+    {
+      path: "/SVGGraphApp",
+      name: "SVGGraphApp",
+      component: () => import("../views/example/SVGGraph/SVGGraphApp.vue"),
+    },
+    
     
     
   ]

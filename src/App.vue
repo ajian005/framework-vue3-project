@@ -29,7 +29,10 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/SlotParent">SlotParent</RouterLink>
         <RouterLink to="/markdownEditor">markdownEditor</RouterLink>
         <RouterLink to="/GridWithSortAndFilter">GridWithSortAndFilter</RouterLink>
+        <RouterLink to="/TreeViewApp">TreeViewApp</RouterLink>
+        <RouterLink to="/SVGGraphApp">SVGGraphApp</RouterLink>
 
+        
         
         
         
