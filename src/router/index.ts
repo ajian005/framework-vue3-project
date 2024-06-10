@@ -149,6 +149,17 @@ const router = createRouter({
       name: "SVGGraphApp",
       component: () => import("../views/example/SVGGraph/SVGGraphApp.vue"),
     },
+    {
+      path: "/ModalWithTransitionsApp",
+      name: "ModalWithTransitionsApp",
+      component: () => import("../views/example/ModalWithTransitions/ModalWithTransitionsApp.vue"),
+    },
+    {
+      path: "/ListWithTransitionsApp",
+      name: "ListWithTransitionsApp",
+      component: () => import("../views/example/ListWithTransitions/ListWithTransitionsApp.vue"),
+    },
+    
     
     
     

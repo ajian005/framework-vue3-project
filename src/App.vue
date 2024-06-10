@@ -31,6 +31,11 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/GridWithSortAndFilter">GridWithSortAndFilter</RouterLink>
         <RouterLink to="/TreeViewApp">TreeViewApp</RouterLink>
         <RouterLink to="/SVGGraphApp">SVGGraphApp</RouterLink>
+        <RouterLink to="/ModalWithTransitionsApp">ModalWithTransitionsApp</RouterLink>
+        <RouterLink to="/ListWithTransitionsApp">ListWithTransitionsApp</RouterLink>
+
+        
+        
 
         
         
