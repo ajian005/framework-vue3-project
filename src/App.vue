@@ -32,7 +32,17 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/ModalWithTransitionsApp">ModalWithTransitionsApp</RouterLink>
         <RouterLink to="/ListWithTransitionsApp">ListWithTransitionsApp</RouterLink>
         <RouterLink to="/TodoMVCApp">TodoMVCApp</RouterLink>
+        <RouterLink to="/Counter">Counter</RouterLink>
+        <RouterLink to="/TemperatureConverter">TemperatureConverter</RouterLink>
+        <RouterLink to="/FlightBooker">FlightBooker</RouterLink>
+        <RouterLink to="/Timer">Timer</RouterLink>
+        <RouterLink to="/CRUD">CRUD</RouterLink>
+        <RouterLink to="/CircleDrawer">CircleDrawer</RouterLink>
+        <RouterLink to="/CellsApp">CellsApp</RouterLink>
 
+        
+        
+        
       </nav>
     </div>
   </header>

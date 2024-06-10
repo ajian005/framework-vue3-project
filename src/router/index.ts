@@ -164,7 +164,44 @@ const router = createRouter({
       name: "TodoMVCApp",
       component: () => import("../views/example/TodoMVC/TodoMVCApp.vue"),
     },
+    {
+      path: "/Counter",
+      name: "Counter",
+      component: () => import("../views/example/GUIs/Counter.vue"),
+    },
     
+    {
+      path: "/TemperatureConverter",
+      name: "TemperatureConverter",
+      component: () => import("../views/example/GUIs/TemperatureConverter.vue"),
+    },
+
+    {
+      path: "/FlightBooker",
+      name: "FlightBooker",
+      component: () => import("../views/example/GUIs/FlightBooker.vue"),
+    },
+    {
+      path: "/Timer",
+      name: "Timer",
+      component: () => import("../views/example/GUIs/Timer.vue"),
+    },
+    
+    {
+      path: "/CRUD",
+      name: "CRUD",
+      component: () => import("../views/example/GUIs/CRUD.vue"),
+    },
+    {
+      path: "/CircleDrawer",
+      name: "CircleDrawer",
+      component: () => import("../views/example/GUIs/CircleDrawer.vue"),
+    },
+    {
+      path: "/CellsApp",
+      name: "CellsApp",
+      component: () => import("../views/example/GUIs/Cells/CellsApp.vue"),
+    },
     
     
     
