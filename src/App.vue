@@ -27,6 +27,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/Props">Props</RouterLink>
         <RouterLink to="/EmitsParent">EmitsParent</RouterLink>
         <RouterLink to="/SlotParent">SlotParent</RouterLink>
+        <RouterLink to="/markdownEditor">markdownEditor</RouterLink>
+        <RouterLink to="/GridWithSortAndFilter">GridWithSortAndFilter</RouterLink>
 
         
         

@@ -129,6 +129,17 @@ const router = createRouter({
       name: "SlotParent",
       component: () => import("../views/studys/SlotParent.vue"),
     },
+    {
+      path: "/markdownEditor",
+      name: "markdownEditor",
+      component: () => import("../views/example/markdownEditor.vue"),
+    },
+    {
+      path: "/GridWithSortAndFilter",
+      name: "GridWithSortAndFilter",
+      component: () => import("../views/example/GridWithSortAndFilter.vue"),
+    },
+    
     
   ]
 })
